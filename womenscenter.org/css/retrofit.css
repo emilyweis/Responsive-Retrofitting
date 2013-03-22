@@ -1,3 +1,8 @@
+/* In order to help me understand page layout*/
+* {
+	border: 1px solid red !important;
+}
+
 body {
 		margin: 1em;
 	}
@@ -50,7 +55,7 @@ body {
     }
 
     div.menu {
-    	background-size: 100% 100%;
+    	background-size: 99.8% 100%;
     	position: relative;
     	margin: 0em 0px 0px -0.2em;
     	width: 101%;
@@ -65,6 +70,9 @@ body {
     	margin-top: 0.5em;
     }
 
+    div.modheader.standard {
+    	display:none;
+    }
 }
 
 @media (max-width: 600px) {
