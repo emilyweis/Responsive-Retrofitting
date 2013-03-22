@@ -21,7 +21,7 @@ body {
     /*After I have this version clean, I want to make a smaller phone version that puts the careline
     underneath the logo*/
     .white {
-    	background-position: 5% 100%;
+    	background-position: 5% 150%;
     	background-size: 65% 90%;
     	width: 100%;
     	height:5em;
@@ -37,15 +37,15 @@ body {
     }
 
     .logo {
-    	margin: 1em 0px 0px 10%;
+    	margin: 1.3em 0px 0px 10%;
     	background-size: 70% 65%;
 		width: 70%;
     }
     /*Need to get rid of these importants somehow*/
     .careline {
     	font-size: 10px !important;
-    	margin: -6em 7% 0 0 !important;
-    	width: 22%;
+    	margin: -6em 3% 0 0 !important;
+    	width: 29%;
     	text-align: center;
     }
 
@@ -58,7 +58,7 @@ body {
     }
 
     .menu .module ul.menu {
-    	margin: 0em !important;
+    	margin: 3px 5% 0px 10%;
     }
 
     .menu .module ul.menu li {
