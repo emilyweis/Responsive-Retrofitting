@@ -162,7 +162,13 @@ body {
 
     .footer {
     	background-size: 100%;
-    	width: 100%
+    	width: 100%;
+    }
+
+    .careline.c380 {
+    	font-size: 1.6em;
+    	margin: 16px 15px 0 0;
+    	width: auto;
     }
 }
 
