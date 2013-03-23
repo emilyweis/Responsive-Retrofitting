@@ -60,6 +60,7 @@ body {
     	margin: 0em 0px 0px -0.2em;
     	width: 101.1%;
     	height: 4em;
+    	overflow: hidden;
     }
 
     .menu .module ul.menu {
@@ -78,6 +79,45 @@ body {
     	margin: -2em 1.5% -2% 1.5%;
     	background-size: 14%;
     	height: 1em;
+    }
+
+    .homeTop {
+    	background-size: 100% 100%;
+		margin: 0;
+		background-position: 100% 100%;
+		width: 100%;
+		height: 19em;
+    }
+
+    .homeTopContainer {
+    	width: 97%;
+    }
+
+    .c700.first {
+    	width: 99%
+    }
+
+    .c220.left {
+    	height: 4em;
+    	clear: left;
+    }
+
+    .modulehomeSideMenu {
+    	height: 100%
+    	overflow: hidden;
+    }
+
+    .modulehomeSideMenu ul.menu {
+    	width: 100%;
+    	font-size: 85%;
+    }
+
+    .modulehomeSideMenu ul.menu li.item61 {
+    	float: left;
+    }
+
+    .modulehomeSideMenu ul.menu li.item62 {
+    	float: right;
     }
 }
 
