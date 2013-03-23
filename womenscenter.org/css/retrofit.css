@@ -159,6 +159,11 @@ body {
     	float: left;
     	margin: 0;
     }
+
+    .footer {
+    	background-size: 100%;
+    	width: 100%
+    }
 }
 
 @media (max-width: 600px) {
