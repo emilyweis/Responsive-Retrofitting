@@ -99,11 +99,12 @@ body {
 
     .c220.left {
     	height: 4em;
+    	width: 97%;
     	clear: left;
     }
 
     .modulehomeSideMenu {
-    	height: 100%
+    	height: 100%;
     	overflow: hidden;
     }
 
@@ -112,12 +113,24 @@ body {
     	font-size: 85%;
     }
 
-    .modulehomeSideMenu ul.menu li.item61 {
+    .modulehomeSideMenu ul li {
     	float: left;
     }
 
-    .modulehomeSideMenu ul.menu li.item62 {
-    	float: right;
+    .modulehomeSideMenu ul li.item61 {
+    	width: 28%;
+    }
+
+    .modulehomeSideMenu ul li.item62 {
+    	width: 32%;
+    }
+
+    .modulehomeSideMenu ul li.item63 {
+    	width: 40%;
+    }
+
+    .modulehomeSideMenu ul li span.separator {
+    	display: none;
     }
 }
 
