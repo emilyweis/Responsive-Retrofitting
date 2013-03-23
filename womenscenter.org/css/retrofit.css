@@ -66,7 +66,7 @@ body {
     }
 
     .menu .module ul.menu {
-    	margin: -0.7% 5% 0 13%;
+    	margin: -0.7% 5% 0 12%;
     }
 
     .menu .module ul.menu li {
@@ -88,7 +88,7 @@ body {
 		margin: 0;
 		background-position: 100% 100%;
 		width: 100%;
-		height: 19em;
+		height: 19.5em;
     }
 
     .homeTopContainer {
@@ -97,6 +97,7 @@ body {
 
     .c700.first {
     	width: 99%
+    	margin-bottom: 1em;
     }
 
     .c220.left {
@@ -104,6 +105,7 @@ body {
     	width: 97%;
     	clear: left;
     	margin: 1em 0 0 0;
+    	font-size: 14px;
     }
 
     .modulehomeSideMenu {
@@ -206,20 +208,29 @@ body {
 		box-shadow: 1px 2px 7px black;
 		height: 12em;
 	}
-
+	/*need to somehow get rid of these importants*/
 	.title.c380 {
-		margin: 0.8em 0 0 0.8em;
+		margin: 0.8em 0 0 0.8em !important;
+	}
+
+	.careline.c380 {
+		font-size: 17px;
 	}
 
 	.c140 {
-		margin: 1.5em;
+		margin: 1.5em !important;
 	}
 
 	.c140.left {
 		width: auto;
 	} 
+
+	.footer .alignright {
+		float: right;
+		width: 18%;
+	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
 }
