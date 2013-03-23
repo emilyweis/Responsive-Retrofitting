@@ -132,6 +132,28 @@ body {
     .modulehomeSideMenu ul li span.separator {
     	display: none;
     }
+
+    .c940.first {
+    	width: 100%;
+    }
+    /*shouldn't be necessary once I get rid of that column from the page entirely*/
+    .c220.first {
+    	display:none;
+    }
+
+    .c460.left.homepage {
+    	width: 100%;
+    	margin: 0;
+    }
+
+    .c220.left {
+    	height: auto;
+    }
+
+    .bottom {
+    	background-size: 100%;
+    	background-position: 100% 100%;
+    }
 }
 
 @media (max-width: 600px) {
