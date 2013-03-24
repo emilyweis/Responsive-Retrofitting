@@ -39,7 +39,7 @@ body {
     	background-size: auto 100%;
     	height: 150%;
 		background-position: 0% 20%;
-		margin: -6% 1% 1% 3%;
+		margin: -3% 1% 1% 3%;
     	width: 16%;
     }
 
@@ -232,5 +232,52 @@ body {
 }
 
 @media (max-width: 700px) {
+    .white {
+        width: 96%;
+    margin: 3% 2% 0 2%;
+    }
 
+    .header .careline {
+        margin: 1% 4% 1% 0;
+        float: right;
+        width: 26em;
+        text-align: center;
+    }
+
+    .header .careline .caretitle {
+        float: left;
+        margin-right: 0.5em;
+    }
+
+    .header .careline .caretitle {
+        float: left;
+    }
+
+    .header .menu .module ul.menu {
+        margin: -0.7% 5% 0 4%;
+    }
+
+    .modheader.standard {
+        background-size: 19%;
+        background-position: 123% -17%;
+    }
+
+    .footer {
+        height: 16em;
+    }
+
+    .footer .title.c380 {
+        width: auto;
+    }
+
+    .footer .careline.c380 {
+        font-size: 14px;
+        float: left;
+        margin: 1em 0 0 2em;
+    }
+
+    .footer .alignright {
+        width: 100%;
+        font-size: 12px;
+    }
 }
