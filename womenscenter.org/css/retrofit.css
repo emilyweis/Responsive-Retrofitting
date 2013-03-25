@@ -1,12 +1,7 @@
-/* In order to help me understand page layout*/
-* {
-	border: 1px solid red !important;
-}
-
 body {
 		margin: 1em;
 	}
-
+/*tablets and small desktop windows*/
 @media (max-width: 1000px) {
 
     #wrapper {
@@ -176,7 +171,7 @@ body {
     	width: auto;
     }
 }
-
+/*tablets*/
 @media (max-width: 860px) {
 	.footer {
 		/*Replace background image with gradient*/
@@ -230,7 +225,7 @@ body {
 		width: 18%;
 	}
 }
-
+/*big phones and small tablets*/
 @media (max-width: 700px) {
     .white {
         width: 96%;
@@ -279,5 +274,46 @@ body {
     .footer .alignright {
         width: 100%;
         font-size: 12px;
+    }
+}
+/*iphones, etc.*/
+@media (max-width: 475px) {
+    .white {
+        margin-top: 4%;
+    }
+
+    #header .careline {
+        font-size: 9px;
+    }
+
+    #header .careline span {
+        float: right;
+        margin: 0;
+    }
+
+    .modheader.standard {
+        background-size: 26%;
+    }
+
+    .modulehomeSideMenu ul.menu {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .modulehomeSideMenu ul.menu li {
+        float: none;
+        width: 100%;
+    }
+
+    .modulehomeSideMenu ul li span.separator {
+        display: inherit;
+    }
+
+    .footer {
+        height: 36em;
+    }
+
+    .footer .c140 {
+        width: 100%;
     }
 }
