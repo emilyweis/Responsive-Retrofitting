@@ -237,23 +237,23 @@ body {
     margin: 3% 2% 0 2%;
     }
 
-    .header .careline {
+    #header .careline {
         margin: 1% 4% 1% 0;
         float: right;
         width: 26em;
         text-align: center;
     }
 
-    .header .careline .caretitle {
+    #header .careline .caretitle {
         float: left;
         margin-right: 0.5em;
     }
 
-    .header .careline .caretitle {
+    #header .careline .caretitle {
         float: left;
     }
 
-    .header .menu .module ul.menu {
+    #header .menu .module ul.menu {
         margin: -0.7% 5% 0 4%;
     }
 
