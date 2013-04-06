@@ -91,16 +91,21 @@ body {
     }
 
     .c700.first {
-    	width: 99%
+    	width: 99%;
     	margin-bottom: 1em;
     }
 
+    .c220.first {
+        width: 100%;
+    }
+
     .c220.left {
-    	height: 4em;
+        height: auto;
     	width: 97%;
     	clear: left;
     	margin: 1em 0 0 0;
     	font-size: 14px;
+        text-align: center;
     }
 
     .modulehomeSideMenu {
@@ -136,18 +141,10 @@ body {
     .c940.first {
     	width: 100%;
     }
-    /*shouldn't be necessary once I get rid of that column from the page entirely*/
-    .c220.first {
-    	display:none;
-    }
 
     .c460.left.homepage {
     	width: 100%;
     	margin: 0;
-    }
-
-    .c220.left {
-    	height: auto;
     }
 
     .bottom {
@@ -307,6 +304,15 @@ body {
 
     .modulehomeSideMenu ul li span.separator {
         display: inherit;
+    }
+
+    .modulecallus, .modulemakeappt {
+        width: 50%;
+    }
+
+    .modulecallus img, .modulemakeappt img {
+        width: 100%;
+        height: auto;
     }
 
     .footer {
