@@ -307,7 +307,9 @@ body {
     }
 
     .modulecallus, .modulemakeappt {
-        width: 50%;
+        width: auto;
+        float: none;
+        margin-left: 0;
     }
 
     .modulecallus img, .modulemakeappt img {
