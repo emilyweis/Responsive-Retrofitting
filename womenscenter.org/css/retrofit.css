@@ -58,7 +58,7 @@ body {
     	margin: 0em 0px 0px -0.2em;
     	width: 101.1%;
     	overflow: hidden;
-        height: 40px;
+        height: auto;
         background: #7a428d; /* Old browsers */
         background: -moz-linear-gradient(top, #7a428d 0%, #703d81 27%, #663777 64%, #60346f 100%); /* FF3.6+ */
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7a428d), color-stop(27%,#703d81), color-stop(64%,#663777), color-stop(100%,#60346f)); /* Chrome,Safari4+ */
@@ -76,7 +76,7 @@ body {
         box-shadow: 0px 2px 4px #361E3F;
     }
 
-    div.menu:after {
+    #header div.menu:after {
         content: ' ';
         position: absolute;
         width: 0;
@@ -88,7 +88,7 @@ body {
         border-color: #140C17 #140C17 transparent transparent;
     }
 
-    div.menu:before {
+    #header div.menu:before {
         content: ' ';
         position: absolute;
         width: 0;
@@ -108,11 +108,14 @@ body {
     .menu .module ul.menu li {
     	margin-top: 0.5em;
     }
+    /*how do I make the menu items centered?*/
+    .drop {
+        display: none;
+    }
 
     div.modheader.standard {
-    	margin: -2em 1.5% -2% 1.5%;
-    	background-size: 15%;
-    	height: 2em;
+    	margin: 0em 1.5% -2% 1.5%;
+    	height: 1.5em;
     }
 
     .homeTop {
@@ -285,11 +288,6 @@ body {
     #header .menu .module ul.menu {
         margin: -0.7% 5% 0 4%;
     }
-    /*for some reason this is being overriden by 1000px still*/
-    .modheader.standard {
-        background-size: 19%;
-        background-position: 123% -17%;
-    }
 
     .footer {
         height: 16em;
@@ -319,16 +317,12 @@ body {
 
     #header .careline {
         font-size: 9px;
+        width: 70%;
     }
 
     #header .careline span {
         float: right;
         margin: 0;
-    }
-    
-    #header .careline .caretitle {
-        float: right;
-        margin-right: 0;
     }
 
     .modheader.standard {
