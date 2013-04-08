@@ -223,7 +223,7 @@ body {
 	}
 }
 /*big phones and small tablets*/
-@media (max-width: 700px) {
+@media (max-width: 715px) {
     .white {
         width: 96%;
     margin: 3% 2% 0 2%;
@@ -248,7 +248,7 @@ body {
     #header .menu .module ul.menu {
         margin: -0.7% 5% 0 4%;
     }
-
+    /*for some reason this is being overriden by 1000px still*/
     .modheader.standard {
         background-size: 19%;
         background-position: 123% -17%;
@@ -273,6 +273,7 @@ body {
         font-size: 12px;
     }
 }
+
 /*iphones, etc.*/
 @media (max-width: 475px) {
     .white {
@@ -286,6 +287,11 @@ body {
     #header .careline span {
         float: right;
         margin: 0;
+    }
+    
+    #header .careline .caretitle {
+        float: right;
+        margin-right: 0;
     }
 
     .modheader.standard {
