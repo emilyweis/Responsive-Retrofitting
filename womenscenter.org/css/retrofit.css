@@ -210,6 +210,27 @@ body {
 }
 /*tablets*/
 @media (max-width: 860px) {
+    .homeTop {
+        background-image:none;
+    }
+
+    .homeTopContainer .c700.first {
+        border-width: 8px;
+        border-bottom-color: #491459;
+    }
+
+    .modulehomeSideMenu {
+        background: #4a1359; /* Old browsers */
+        background: -moz-linear-gradient(top, #4a1359 0%, #7a2293 50%, #491459 99%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4a1359), color-stop(50%,#7a2293), color-stop(99%,#491459)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #4a1359 0%,#7a2293 50%,#491459 99%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #4a1359 0%,#7a2293 50%,#491459 99%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #4a1359 0%,#7a2293 50%,#491459 99%); /* IE10+ */
+        background: linear-gradient(to bottom, #4a1359 0%,#7a2293 50%,#491459 99%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a1359', endColorstr='#491459',GradientType=0 ); /* IE6-9 */
+        border-radius: 10px;
+    }
+
 	.footer {
 		/*Replace background image with gradient*/
 		background: #86aa46; /* Old browsers */
