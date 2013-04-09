@@ -131,8 +131,9 @@ body {
     }
 
     .c700.first {
-    	width: 99%;
+    	width: 100%;
     	margin-bottom: 1em;
+        float: right;
     }
 
     .c220.first {
@@ -141,9 +142,7 @@ body {
 
     .c220.left {
         height: auto;
-    	width: 97%;
-    	clear: left;
-    	margin: 1em 0 0 0;
+    	width: 96%;
     	font-size: 14px;
         text-align: center;
     }
@@ -229,6 +228,7 @@ body {
         background: linear-gradient(to bottom, #4a1359 0%,#7a2293 50%,#491459 99%); /* W3C */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a1359', endColorstr='#491459',GradientType=0 ); /* IE6-9 */
         border-radius: 10px;
+        box-shadow: 0px 1px 14px black;
     }
 
 	.footer {
