@@ -224,6 +224,7 @@ body {
         overflow: auto !important;
         padding-bottom: 31.428571428571% !important;
         height: 0 !important;
+        width: 100%;
     }
 
     #slideshow div a, #slideshow div a img {
