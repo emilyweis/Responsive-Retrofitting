@@ -126,7 +126,7 @@ body {
 		margin: 0;
 		background-position: 100% 100%;
 		width: 100%;
-		height: 19.5em;
+		height: 23em;
     }
 
     .homeTopContainer {
@@ -404,8 +404,8 @@ body {
     }
 
     .modulehomeSideMenu ul.menu {
-        width: 50%;
-        margin-left: 25%;
+        width: 70%;
+        margin-left: 15%;
     }
 
     .modulehomeSideMenu ul.menu li {
