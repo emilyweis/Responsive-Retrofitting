@@ -204,6 +204,14 @@ body {
         width: 50%;
     }
 
+    .modulecallus {
+        float: left;
+    }
+
+    .modulemakeappt {
+        float: right
+    }
+
     .modulecallus p, .modulemakeappt p {
         text-align: center;
     }
@@ -325,6 +333,9 @@ body {
 
 	.careline.c380 {
 		font-size: 17px;
+        width: 115px;
+        float: right;
+        margin-right: 1em;
 	}
 
 	.c140 {
@@ -387,7 +398,7 @@ body {
     }
 
     .footer .alignright {
-        width: 100%;
+        width: auto;
         font-size: 12px;
     }
 }
@@ -454,7 +465,7 @@ body {
     }
 
     .footer {
-        height: 36em;
+        height: 37em;
     }
 
     .footer .c140 {
