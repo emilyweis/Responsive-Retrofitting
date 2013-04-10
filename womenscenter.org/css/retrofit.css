@@ -200,8 +200,17 @@ body {
     }
 
     .modulecallus, .modulemakeappt {
-    	float: left;
-    	margin: 0 0 0 1em;
+    	margin: 0;
+        width: 50%;
+    }
+
+    .modulecallus p, .modulemakeappt p {
+        text-align: center;
+    }
+
+    .modulecallus img, .modulemakeappt img {
+        width: 200px;
+        height: auto;
     }
 
     .footer {
@@ -249,6 +258,7 @@ body {
 @media (max-width: 860px) {
     .homeTop {
         background-image:none;
+        height: auto;
     }
 
     .homeTopContainer .c700.first {
@@ -357,7 +367,7 @@ body {
         margin: -0.7% 5% 0 4%;
     }
     /* specifically for the contact page images*/
-    h5 img {
+    h5 img, h4 img {
         width: 100%;
         height: auto;
     }
