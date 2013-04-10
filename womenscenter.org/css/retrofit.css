@@ -207,9 +207,8 @@ body {
     .modulecallus {
         float: left;
     }
-
     .modulemakeappt {
-        float: right
+        float: right;
     }
 
     .modulecallus p, .modulemakeappt p {
@@ -331,6 +330,10 @@ body {
 		margin: 0.8em 0 0 0.8em !important;
 	}
 
+	.careline.c380 {
+		font-size: 17px;
+	}
+
 	.c140 {
 		margin: 1.5em !important;
 	}
@@ -338,10 +341,6 @@ body {
 	.c140.left {
 		width: auto;
 	} 
-
-    .footer .careline.c380 {
-        font-size: 17px;
-    }
 
 	.footer .alignright {
 		float: right;
@@ -389,14 +388,13 @@ body {
     }
 
     .footer .careline.c380 {
-        font-size: 17px;
-        width: 115px;
-        float: right;
-        margin-right: 1em;
+        font-size: 14px;
+        float: left;
+        margin: 1em 0 0 2em;
     }
 
     .footer .alignright {
-        width: auto;
+        width: 100%;
         font-size: 12px;
     }
 }
