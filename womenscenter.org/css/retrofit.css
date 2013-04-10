@@ -189,6 +189,11 @@ body {
     	margin: 0;
     }
 
+    .c700.left {
+        width: 90%;
+        margin-top: 5%;
+    }
+
     .bottom {
     	background-size: 100%;
     	background-position: 100% 100%;
@@ -350,6 +355,11 @@ body {
 
     #header .menu .module ul.menu {
         margin: -0.7% 5% 0 4%;
+    }
+    /* specifically for the contact page images*/
+    h5 img {
+        width: 100%;
+        height: auto;
     }
 
     .footer {
