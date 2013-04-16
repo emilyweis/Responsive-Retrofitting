@@ -399,12 +399,21 @@ body {
     .footer .careline.c380 {
         font-size: 14px;
         float: left;
-        margin: 1em 0 0 2em;
+        margin: 0 10em 0 2em;
     }
 
     .footer .alignright {
         width: 100%;
         font-size: 12px;
+    }
+}
+
+/*for footer text-wrapping*/
+@media (max-width: 570px) {
+    .c140 {
+        margin-right: 0em !important;
+        margin-left: 1em !important;
+        width: 30%
     }
 }
 
