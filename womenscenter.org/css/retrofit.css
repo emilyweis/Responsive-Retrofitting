@@ -389,7 +389,7 @@ body {
     }
 
     .footer {
-        height: 16em;
+        height: 17em;
     }
 
     .footer .title.c380 {
@@ -480,6 +480,10 @@ body {
 
     .footer {
         height: 37em;
+    }
+
+    .footer .careline.c380 {
+        margin-right: 0;
     }
 
     .footer .c140 {
