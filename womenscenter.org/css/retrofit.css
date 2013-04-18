@@ -359,19 +359,21 @@ body {
     }
 
     #header .careline {
-        margin: 1% 4% 1% 0;
+        margin: 0 5%;
         float: right;
-        width: 26em;
-        text-align: center;
+        width: auto;
     }
 
     #header .careline .caretitle {
         float: left;
-        margin-right: 0.5em;
+        font-size: 18px;
     }
-
-    #header .careline .caretitle {
+    
+    span.carenumber {
+        margin-left: 0.5em;
+        width: auto;
         float: left;
+        font-size: 16px !important;
     }
 
     #header .menu .module ul.menu {
@@ -382,8 +384,8 @@ body {
         margin: 0;
     }
 
-    #header div.modheader.standard {
-        margin: -0.5em 1.5% -2% 1.5%;
+    div.modheader.standard {
+        margin: -1.5em 1.5% -2% 1.5%;
     }
 
     /* specifically for the contact page images*/
@@ -430,21 +432,26 @@ body {
 
     .white {
         margin-top: 4%;
+        z-index: 2;
     }
 
     #header .careline {
         font-size: 9px;
-        width: 70%;
+        z-index: 100;
+        position: relative;
     }
 
     #header .careline span {
-        float: right;
-        margin: 0;
+        float: left;
+        margin: 0 5px 0 0;
+    }
+    
+    div.menu {
+        z-index: 1;
     }
 
     .modheader.standard {
-        background-size: 26%;
-        margin: 1em 1.5% -2% 1.5%;;
+        display: none;
     }
 
     .modulehomeSideMenu {
