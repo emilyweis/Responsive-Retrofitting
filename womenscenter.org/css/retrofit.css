@@ -221,7 +221,7 @@ body {
 
     .footer {
     	background-size: 100%;
-    	width: 100%;
+    	width: auto;
     }
 
     .careline.c380 {
@@ -409,7 +409,7 @@ body {
     }
 
     .footer .alignright {
-        width: 100%;
+        width: 90%;
         font-size: 12px;
     }
 }
@@ -418,8 +418,8 @@ body {
 @media (max-width: 570px) {
     .c140 {
         margin-right: 0em !important;
-        margin-left: 1em !important;
-        width: 30%
+        width: 30%;
+        font-size: 11px;
     }
 }
 
@@ -432,7 +432,7 @@ body {
 
     .white {
         margin-top: 4%;
-        z-index: 2;
+        z-index: 3;
     }
 
     #header .careline {
@@ -447,7 +447,7 @@ body {
     }
     
     div.menu {
-        z-index: 1;
+        z-index: 2;
     }
 
     .modheader.standard {
@@ -455,7 +455,7 @@ body {
     }
 
     .modulehomeSideMenu {
-        padding: 1em 0.5em 0.5em 1em;
+        padding: 1em 1em 0.5em 1em;
         width: 100%;
         float: right;
     }
@@ -491,14 +491,35 @@ body {
     }
 
     .footer {
-        height: 37em;
+        height: 34em;
+    }
+    
+    .title.c380 {
+        font-size: 19px;
     }
 
     .footer .careline.c380 {
         margin-right: 0;
+        font-size: 12px;
     }
 
     .footer .c140 {
         width: 100%;
+    }
+}
+
+@media (max-width: 365px) {
+    .modulecallus, .modulemakeappt {
+        width: 100%;
+    }
+    
+    .footer {
+        height: 36em;
+    }
+}
+
+@media (max-width: 300px) {
+    .footer {
+        height: 38em;
     }
 }
