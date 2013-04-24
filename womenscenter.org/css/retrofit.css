@@ -385,10 +385,18 @@ body {
     }
 
     div.modheader.standard {
-        margin: -1.5em 1.5% -2% 1.5%;
+        margin: -1.6em 1.5% -2% 1.5%;
+    }
+    
+    div.content {
+        margin-top: 2em;
     }
 
     /* specifically for the contact page images*/
+    .modulecallus, .modulemakeappt {
+        width: 48%;
+    }
+    
     h5 img, h4 img {
         width: 100%;
         height: auto;
@@ -421,6 +429,7 @@ body {
         width: 30%;
         font-size: 11px;
     }
+
 }
 
 /*iphones, etc.*/
@@ -436,7 +445,6 @@ body {
     }
 
     #header .careline {
-        font-size: 9px;
         z-index: 100;
         position: relative;
     }
@@ -448,10 +456,7 @@ body {
     
     div.menu {
         z-index: 2;
-    }
-
-    .modheader.standard {
-        display: none;
+        margin-bottom: 5em;
     }
 
     .modulehomeSideMenu {
@@ -509,6 +514,15 @@ body {
 }
 
 @media (max-width: 365px) {
+
+    #header .careline {
+        margin-bottom: 4px;
+    }
+    
+    #header .careline span.carenumber, span.caretitle {
+        font-size: 12px !important;
+    }
+    
     .modulecallus, .modulemakeappt {
         width: 100%;
     }
@@ -518,7 +532,15 @@ body {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 318px) {
+    div.content {
+        margin-top: 4em;
+        width: 82%;
+    }
+
+}
+
+@media (max-width: 300px) {  
     .footer {
         height: 38em;
     }
