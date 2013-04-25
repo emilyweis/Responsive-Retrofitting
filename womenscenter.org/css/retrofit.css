@@ -113,18 +113,6 @@ body {
     	margin-top: 0.5em;
     }
     /*how do I make the menu items centered?*/
-    
-    /*for making the drop down menus stack properly*/
-    .parent ul.drop {
-        position: fixed !important;
-        z-index: 999;
-    }
-
-    .c700.first .module {
-        position: relative;
-        z-index: 1;
-    }
-    /*end stack fix*/
 
     div.modheader.standard {
     	margin: 0em 1.5% -2% 1.5%;
@@ -533,9 +521,32 @@ body {
 }
 
 @media (max-width: 318px) {
+    .white {
+        height: 5em;
+    }
+    
+    .menu {
+        font-size: 12px;
+    }
+    
+    ul.menu li a {
+        font-size: 15px;
+    }
+    
     div.content {
-        margin-top: 4em;
-        width: 82%;
+        margin-top: 1em;
+    }
+    
+    div.content h1 {
+        font-size: 20px;
+    }
+    
+    div.content li {
+        font-size: 15px;
+    }
+    
+    div.content p {
+        font-size: 12px;
     }
 
 }
