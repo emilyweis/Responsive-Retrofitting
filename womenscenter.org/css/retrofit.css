@@ -60,7 +60,6 @@ body {
     	position: relative;
     	margin: 1em 0 0 0;
     	width: 100%;
-    	overflow: hidden;
         float: left;
         height: auto;
         background: #7a428d; /* Old browsers */
@@ -78,31 +77,6 @@ body {
         box-shadow: 0px 2px 4px #361E3F;
         
         box-shadow: 0px 2px 4px #361E3F;
-    }
-
-    #header div.menu:after {
-        content: ' ';
-        position: absolute;
-        width: 0;
-        height: 0;
-        left: 0px;
-        top: 100%;
-        border-width: 5px 10px;
-        border-style: solid;
-        border-color: #140C17 #140C17 transparent transparent;
-    }
-
-    #header div.menu:before {
-        content: ' ';
-        position: absolute;
-        width: 0;
-        height: 0;
-        left: 0;
-        top: 100%;
-        margin-left:98%;
-        border-width: 5px 10px;
-        border-style: solid;
-        border-color: #140C17 transparent transparent #140C17;
     }
 
     .menu .module ul.menu {
