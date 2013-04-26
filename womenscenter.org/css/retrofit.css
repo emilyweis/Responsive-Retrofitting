@@ -415,11 +415,6 @@ body {
         float: left;
         margin: 0 5px 0 0;
     }
-    
-    div.menu {
-        z-index: 2;
-        margin-bottom: 5em;
-    }
 
     .modulehomeSideMenu {
         padding: 1em 1em 0.5em 1em;
@@ -494,7 +489,7 @@ body {
     }
 }
 
-@media (max-width: 318px) {
+@media (max-width: 320px) {
     .white {
         height: 5em;
     }
