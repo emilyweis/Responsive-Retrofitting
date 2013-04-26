@@ -87,6 +87,10 @@ body {
     	margin-top: 0.5em;
     }
     /*how do I make the menu items centered?*/
+    
+    ul.drop {
+        background: black !important;
+    }
 
     div.modheader.standard {
     	margin: 0em 1.5% -2% 1.5%;
@@ -317,7 +321,7 @@ body {
 
     .white {
         width: 96%;
-    margin: 3% 2% 0 2%;
+        margin: 3% 2% 0 2%;
     }
 
     #header .careline {
@@ -336,10 +340,6 @@ body {
         width: auto;
         float: left;
         font-size: 16px !important;
-    }
-
-    #header .menu .module ul.menu {
-        margin: -0.7% 5% 0 4%;
     }
 
     #header div.menu {
@@ -391,6 +391,10 @@ body {
         width: 30%;
         font-size: 11px;
     }
+    
+    .modheader.standard {
+        display: none;
+    }
 
 }
 
@@ -403,7 +407,10 @@ body {
 
     .white {
         margin-top: 4%;
-        z-index: 3;
+    }
+    
+    .embelem {
+		margin-top: -5%;
     }
 
     #header .careline {
@@ -489,13 +496,13 @@ body {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
     .white {
         height: 5em;
     }
     
-    .menu {
-        font-size: 12px;
+    .menu, ul.drop a {
+        font-size: 12px !important;
     }
     
     ul.menu li a {
